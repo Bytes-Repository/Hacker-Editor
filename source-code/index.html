@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hacker Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="toolbar">
+    <button id="new">New</button>
+    <button id="open">Open</button>
+    <button id="save">Save</button>
+    <button id="saveas">Save As</button>
+    <span id="separator">|</span>
+    <button id="run">Run (hli run)</button>
+    <button id="compile">Compile --bytes</button>
+    <button id="check">Check Syntax</button>
+    <span id="file-path"></span>
+  </div>
+  <div id="editor"></div>
+  <div id="output-panel">
+    <pre id="output"></pre>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
