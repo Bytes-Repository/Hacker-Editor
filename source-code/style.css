@@ -1,0 +1,28 @@
+body { margin: 0; background: #1e1e1e; color: #d4d4d4; font-family: system-ui; display: flex; flex-direction: column; height: 100vh; }
+#toolbar { padding: 8px; background: #252526; border-bottom: 1px solid #3c3c3c; display: flex; gap: 8px; align-items: center; }
+#toolbar button { padding: 6px 12px; background: #3c3c3c; border: none; color: #ccc; cursor: pointer; }
+#toolbar button:hover { background: #4e4e4e; }
+#toolbar #separator { margin: 0 10px; color: #666; }
+#file-path { margin-left: auto; color: #888; font-size: 0.9em; }
+#editor { flex: 1; }
+#output-panel { height: 200px; background: #1e1e1e; border-top: 1px solid #3c3c3c; overflow: auto; }
+#output { margin: 10px; white-space: pre-wrap; }
+
+/* Highlighting klas */
+.cm-dep { color: #569cd6 !important; font-weight: bold; }
+.cm-lib { color: #4ec9b0 !important; }
+.cm-cmd { color: #ce9178 !important; }
+.cm-cmd-vars { color: #d16969 !important; }
+.cm-cmd-separate { color: #dcdcaa !important; }
+.cm-global-var { color: #9cdcfe !important; }
+.cm-local-var { color: #c586c0 !important; }
+.cm-plugin { color: #dcdcaa !important; }
+.cm-loop { color: #b5cea8 !important; }
+.cm-conditional { color: #c586c0 !important; }
+.cm-background { color: #808080 !important; }
+.cm-func-def { color: #569cd6 !important; font-weight: bold; }
+.cm-func-call { color: #dcdcaa !important; }
+.cm-super { color: #ff5555 !important; font-weight: bold; }
+.cm-config { color: #c586c0 !important; }
+.cm-comment { color: #6a9955 !important; font-style: italic; }
+.cm-comment-toggle { color: #d7ba7d !important; font-weight: bold; }
