@@ -1,0 +1,5 @@
+// npm
+
+> cd source-code
+> npm install
+> npm run build
