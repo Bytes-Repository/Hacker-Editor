@@ -1,1 +1,23 @@
-
+{
+  "name": "hacker-editor",
+  "version": "1.0.0",
+  "description": "Oficjalny edytor dla Hacker Lang",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "HackerOS Team",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^28.2.0",
+    "@codemirror/view": "^6.23.1",
+    "@codemirror/state": "^6.4.0",
+    "@codemirror/language": "^6.10.1",
+    "@codemirror/autocompletion": "^6.12.0",
+    "@codemirror/commands": "^6.3.3",
+    "@codemirror/search": "^6.5.6",
+    "@codemirror/lint": "^6.5.0",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "codemirror": "^6.0.1"
+  }
+}
